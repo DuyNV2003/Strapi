@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cycling_vietnams",
+  "info": {
+    "singularName": "cycling-vietnam",
+    "pluralName": "cycling-vietnams",
+    "displayName": "Cycling-vietnam",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "Expert": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

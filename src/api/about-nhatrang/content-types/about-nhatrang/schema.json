@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_nhatrangs",
+  "info": {
+    "singularName": "about-nhatrang",
+    "pluralName": "about-nhatrangs",
+    "displayName": "about-nhatrang"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}
